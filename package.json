@@ -1,0 +1,25 @@
+{
+  "name": "back_end_paoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrodriguess/back_end_paoo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrodriguess/back_end_paoo/issues"
+  },
+  "homepage": "https://github.com/wrodriguess/back_end_paoo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.14",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
